@@ -1,2 +1,3 @@
-Wpop.dmg
-Wpop.app/
+.DS_Store
+*.app
+*.dmg
