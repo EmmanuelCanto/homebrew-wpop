@@ -1,7 +1,7 @@
 cask "wpop" do
-  version "1.0"
+  version "2.0"
 
-  url "https://github.com/EmmanuelCanto/wpop/releases/download/beta/Wpop.dmg"
+  url "https://github.com/EmmanuelCanto/wpop/releases/download/beta2.0/Wpop.dmg"
   sha256 :no_check
 
   name "Wpop"
