@@ -1,8 +1,8 @@
 cask "wpop" do
-  version "2.0"
+  version "3.0"
 
-  url "https://github.com/EmmanuelCanto/wpop/releases/download/beta2.0/Wpop.dmg"
-  sha256 "e28d731d1c44660d3e08d83ca18d76e0a68e749974a20748a009b8d9cc37e8b4"
+  url "https://github.com/EmmanuelCanto/wpop/releases/download/3.0/Wpop.dmg"
+  sha256 "3a4c6d121707bf627b78a218bf074e24bf711cb72393edef3f0a8a1e2fc3e975"
 
   name "Wpop"
   desc "Floating lyrics window for Apple Music and Spotify"
