@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Check out tap
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Read latest stable Wpop release
         id: release
@@ -74,6 +74,8 @@ jobs:
             "${{ steps.release.outputs.sha256 }}"
 
       - name: Validate cask
+        env:
+          HOMEBREW_GITHUB_API_TOKEN: ${{ github.token }}
         run: |
           ruby -c Casks/wpop.rb
 
