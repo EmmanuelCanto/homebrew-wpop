@@ -1,8 +1,8 @@
 cask "wpop" do
-  version "3.0"
-  sha256 "3a4c6d121707bf627b78a218bf074e24bf711cb72393edef3f0a8a1e2fc3e975"
+  version "4.0"
+  sha256 "3a34c6e9c9face9fda09df88d0591bcca4bec5a43cb8663f28f513f8affbde74"
 
-  url "https://github.com/EmmanuelCanto/wpop/releases/download/3.0/Wpop.dmg"
+  url "https://github.com/EmmanuelCanto/wpop/releases/download/4.0/Wpop.dmg"
   name "Wpop"
   desc "Floating lyrics window for Apple Music and Spotify"
   homepage "https://github.com/EmmanuelCanto/wpop"
@@ -12,6 +12,7 @@ cask "wpop" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :tahoe
 
   app "Wpop.app"
